@@ -20,3 +20,6 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 
+=======
+# cdc-healthcare-etl-pipeline
+Healthcare data ETL pipeline using Python and SQL.
