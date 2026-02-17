@@ -17,6 +17,17 @@ The codebase is organized into dedicated extract, transform, and load modules to
 
 ---
 
+## Project Status
+
+✅ ETL pipeline fully functional and tested  
+✅ Extracts CDC vaccination data, transforms it, and loads outputs to CSV and SQLite  
+✅ Structured logging implemented with timestamped log files  
+✅ SQLite database queryable via Python and pandas (`pd.read_sql_query`)  
+✅ Tested on a fresh clone to ensure reproducible setup and outputs  
+✅ README updated with usage instructions and database exploration tips
+
+---
+
 ## Architecture Overview
 
 The pipeline follows a modular ETL design pattern:
