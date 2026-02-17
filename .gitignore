@@ -15,3 +15,8 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Ignore local helper scripts
+scripts/*.py
+
+# Ignore local README drafts or notes
+R.md
